@@ -1,0 +1,15 @@
+### TRAER TODOS LOS PRODUCTOS
+GET http://www.localhost:3000/api/products
+
+### CREAR UN PRODUCTO
+POST http://www.localhost:3000/api/products
+Content-Type: application/json
+
+{
+    "name": "Pantalon",
+    "description": "Pantalon Negro",
+    "price": 20000
+}
+
+###
+
